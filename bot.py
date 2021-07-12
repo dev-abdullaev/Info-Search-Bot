@@ -6,7 +6,7 @@ from telegram.ext import (
     CallbackContext,
     MessageHandler,
 )
-from .settings import TELEGRAM_TOKEN
+
 from telegram.ext.filters import Filters
 from telegram.update import Update
 
@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 
 
-updater = Updater(token=TELEGRAM_TOKEN)
+updater = Updater(token="1854572889:AAHns0bVp75v3MJrYKBL6Et_5_DC_18UN4Y")
 
 
 def start(update: Update, context: CallbackContext):
