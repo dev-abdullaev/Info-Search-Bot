@@ -6,7 +6,7 @@ from telegram.ext import (
     CallbackContext,
     MessageHandler,
 )
-from settings import TELEGRAM_TOKEN
+from .settings import TELEGRAM_TOKEN
 from telegram.ext.filters import Filters
 from telegram.update import Update
 
